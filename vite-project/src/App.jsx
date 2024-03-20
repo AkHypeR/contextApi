@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import {TodoContextProvider} from './context/index'
-import {TodoForm,TodoItem} from './components/index'
+import TodoForm from './components/TodoForm'
+import TodoItem from './components/TodoItem'
 import './App.css'
 
 function App() {
